@@ -109,9 +109,15 @@ header h1 {
 /*-------------ESTILOS MAIN----   */
 
 .item {
-  width: 25rem;
-  height: auto;
+  width: 360px;
+  height: 100%;
   text-align: center;
+  
+}
+
+.item img{
+  width: 350px;
+  height: 100%;
 }
 
 .flex-container {
@@ -120,8 +126,10 @@ header h1 {
   height: 100%;
   padding: 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content:space-around;
+  align-items: center;
   flex-wrap: wrap;
+  
 }
 
 .titulo-ofertas {
