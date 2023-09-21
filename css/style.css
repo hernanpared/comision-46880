@@ -39,7 +39,7 @@ body p {
 
 /* ESTILOS HEADER*/
 
-nav{
+nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -50,7 +50,6 @@ nav{
   display: flex;
   list-style: none;
   gap: 10px;
-  
 }
 
 .navBar li a {
@@ -87,7 +86,6 @@ header h1 {
   text-shadow: 0 0 8px rgba(18, 17, 17, 0.8);
 }
 
-
 /* FIN ESTILOS HEADER*/
 
 /*inicio titulo principal*/
@@ -97,26 +95,44 @@ header h1 {
   height: 100%;
   text-align: center;
   padding: 3.125rem;
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center;
-  flex-wrap: wrap; */
   background-color: #d2d904;
 }
+
+.tituloPrincipal button{
+  background-color: #24CC63;
+  width: 200px;
+  height: 50px;
+  margin: 30px;
+
+}
+.tituloPrincipal a{
+  text-decoration: none;
+  color: #fbfcfc;
+}
+
+.tituloPrincipal h3{
+  font-size: 18px;
+  
+}
+
+
+
 
 /*fin titulo principal*/
 
 /*-------------ESTILOS MAIN----   */
 
 .item {
-  width:350px;
-  height: 100%;
-  text-align: center;
-} 
-
-.item img{
   width: 350px;
   height: 100%;
+  text-align: center;
+}
+
+.item img {
+  width: 350px;
+  height: 100%;
+  border-radius: 15%;
+  box-shadow: 5px 8px 12px rgb(80, 77, 77);
 }
 
 .flex-container {
@@ -151,10 +167,8 @@ footer {
   flex-wrap: wrap;
 }
 
-
-
 /* inicio estilos pagina traslados*/
-.header-traslados{
+.header-traslados {
   background-image: url(../assets/portada-traslados.png);
 }
 .container-grid {
@@ -292,126 +306,147 @@ footer {
   text-decoration: underline;
 }
 
-
 /*---- Fin Footer */
 
 /* media queries generales */
 
-@media (max-width:1024px){
-  .container-grid{
+@media (max-width: 1024px) {
+  .container-grid {
     width: 1024px;
     height: auto;
-    padding:10px;
+    padding: 10px;
   }
 }
-  nav{
-    padding:10px 60px 10px 10px;
-  }
-
+nav {
+  padding: 10px 60px 10px 10px;
+}
 
 /* fin media queries generales */
 
-
 /* media queries inicio */
 
-@media (max-width:1024px){
-  
+@media (max-width: 1024px) {
   .item {
-    width:280px;
+    width: 280px;
     height: 100%;
     text-align: center;
-  } 
-  
-  .item img{
+  }
+
+  .item img {
     width: 100%;
     height: 100%;
   }
-
-
 }
 
-@media (max-width:768px){
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  nav ul {
+    padding-top: 15px;
+  }
 
-nav{
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-nav ul {
-  padding-top: 15px;
-}
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+  }
 
-.flex-container{
-  display: flex;
-  flex-direction: column;
-  align-content: space-around;
-  align-items: center;
-}
-
-.item{
-  width: 500px;
-  height: 100%;
-  padding: 10px;
-}
- .item img{
-  width: 100%;
-  height: 100%;
- }
-
-
+  .item {
+    width: 500px;
+    height: 100%;
+    padding: 10px;
+  }
+  .item img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
-@media (max-width:425px){
-
-  header{
-    background-image:url(../assets/familia\ aeropuerto\ pequeña.png);
+@media (max-width: 425px) {
+  header {
+    background-image: url(../assets/familia\ aeropuerto\ pequeña.png);
     object-fit: cover;
     height: 650px;
   }
- nav{
-  display: flex;  
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
- }
-  .navBar{
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .navBar {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
   }
 
-  .navBar li{
+  .navBar li {
     padding: 5px;
     font-size: 25px;
-  } 
+  }
 
-  header h1{
-  top: 55%;
-  left: 25%;
-  bottom: 50%;
-  right: 25%;
-  padding: 10px;
-  font-size: 35px;
+  header h1 {
+    top: 55%;
+    left: 25%;
+    bottom: 50%;
+    right: 25%;
+    padding: 10px;
+    font-size: 35px;
+  }
 
+  .item {
+    width: 425px;
+    height: 100%;
+    padding: 10px;
+  }
+  .item img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
-
+@media (max-width: 375px) {
+  .item {
+    width: 375px;
+    height: 100%;
+    padding: 10px;
+  }
+  .item img {
+    width: 100%;
+    height: 100%;
+  }
+  .navBar li {
+    padding: 5px;
+    font-size: 20px;
+  }
 }
 
-@media (max-width:375px){
-  
+@media (max-width: 320px) {
+  .item {
+    width: 320px;
+    height: 100%;
+    padding: 10px;
+  }
+  .item img {
+    width: 100%;
+    height: 100%;
+  }
+  .navBar li {
+    padding: 5px;
+    font-size: 18px;
+  }
 
-
-
-
-}
-
-@media (max-width:320px){
-  
-
-
-
-
+  header h1 {
+    top: 55%;
+    left: 25%;
+    bottom: 50%;
+    right: 25%;
+    padding: 10px;
+    font-size: 30px;
+  }
 }
