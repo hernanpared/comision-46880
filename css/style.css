@@ -376,7 +376,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 14px;
   }
   .navBar {
     display: flex;
@@ -387,7 +387,7 @@ nav {
 
   .navBar li {
     padding: 5px;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   header h1 {
