@@ -178,7 +178,10 @@ footer {
   margin: 5px; 
   padding: 2px;
 }
-
+.servicio img{
+  width:100%;
+  height:100%;
+}
 .container-grid{
   display: grid;
   grid-template-columns: auto auto;
@@ -188,10 +191,15 @@ footer {
   justify-items: center;
   align-content: center;
 }
-.servicio img{
-  width:100%;
-  height:100%;
+
+.seis{
+  grid-column:1/3 ;
 }
+
+.cuatro {
+  grid-row: 2/4;
+}
+
 
 .tituloHoteles h2 {
   width: 100%;
