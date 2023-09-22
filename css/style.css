@@ -46,6 +46,7 @@ nav {
   align-items: center;
   position: absolute;
 }
+
 .navBar {
   display: flex;
   list-style: none;
@@ -98,24 +99,23 @@ header h1 {
   background-color: #d2d904;
 }
 
-.tituloPrincipal button{
+.tituloPrincipal button {
   background-color: #24CC63;
   width: 200px;
   height: 50px;
   margin: 30px;
 
 }
-.tituloPrincipal a{
+
+.tituloPrincipal a {
   text-decoration: none;
   color: #fbfcfc;
 }
 
-.tituloPrincipal h3{
+.tituloPrincipal h3 {
   font-size: 18px;
-  
+
 }
-
-
 
 
 /*fin titulo principal*/
@@ -168,56 +168,29 @@ footer {
 }
 
 /* inicio estilos pagina traslados*/
+
 .header-traslados {
   background-image: url(../assets/portada-traslados.png);
 }
-.container-grid {
+.servicio{
   width: 100%;
   height: auto;
-  padding: 3.125rem;
+  margin: 5px; 
+  padding: 2px;
+}
+
+.container-grid{
   display: grid;
-  grid-template-areas:
-    "s-uno s-dos s-cinco"
-    "s-tres s-cuatro s-cinco";
-  background-color: #b6b7c49e;
-  justify-content: center;
-  text-align: center;
-}
-
-.container-grid img {
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height:100%;
+  justify-items: center;
+  align-content: center;
 }
-
-.s-uno {
-  background-color: aqua;
-  grid-area: s-uno;
-}
-
-.s-dos {
-  background-color: #e30955;
-  grid-area: s-dos;
-}
-
-.s-tres {
-  background-color: #d2d904;
-  grid-area: s-cuatro;
-}
-
-.s-cuatro {
-  background-color: bisque;
-  grid-area: s-tres;
-}
-
-.s-cinco {
-  background-color: rgb(243, 137, 9);
-  grid-area: s-cinco;
-}
-
-.s-cinco img {
-  width: 100%;
-  height: 100%;
+.servicio img{
+  width:100%;
+  height:100%;
 }
 
 .tituloHoteles h2 {
@@ -262,16 +235,18 @@ footer {
   grid-row-start: span 3;
 }
 
-/* @media (max-width: 868px) and (min-width: 400px) {
-  .container-grid {
-    grid-template-areas:
-      "s-uno"
-      "s-dos"
-      "s-tres"
-      "s-cuatro"
-      "s-cinco";
-  }
-} */
+
+/* media queries pagina traslados */
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+
+
+  
+}
 
 /* fin estilos pagina traslados */
 
@@ -317,6 +292,7 @@ footer {
     padding: 10px;
   }
 }
+
 nav {
   padding: 10px 60px 10px 10px;
 }
@@ -344,6 +320,7 @@ nav {
     align-items: center;
     justify-content: center;
   }
+
   nav ul {
     padding-top: 15px;
   }
@@ -360,6 +337,7 @@ nav {
     height: 100%;
     padding: 10px;
   }
+
   .item img {
     width: 100%;
     height: 100%;
@@ -372,12 +350,14 @@ nav {
     object-fit: cover;
     height: 650px;
   }
+
   nav {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 14px;
   }
+
   .navBar {
     display: flex;
     flex-direction: column;
@@ -404,6 +384,7 @@ nav {
     height: 100%;
     padding: 10px;
   }
+
   .item img {
     width: 100%;
     height: 100%;
@@ -416,10 +397,12 @@ nav {
     height: 100%;
     padding: 10px;
   }
+
   .item img {
     width: 100%;
     height: 100%;
   }
+
   .navBar li {
     padding: 5px;
     font-size: 20px;
@@ -432,10 +415,12 @@ nav {
     height: 100%;
     padding: 10px;
   }
+
   .item img {
     width: 100%;
     height: 100%;
   }
+
   .navBar li {
     padding: 5px;
     font-size: 18px;
