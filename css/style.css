@@ -168,30 +168,31 @@ footer {
   flex-wrap: wrap;
 }
 
-/* inicio estilos pagina traslados*/
+/* INICIO ESTILO PAG TRASLADOS*/
 
 .header-traslados {
   background-image: url(../assets/portada-traslados.png);
 }
 
-
-.container-grid{
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto;
+.contenedor-grid{
   width: 100%;
-  height:100%;
-  justify-items: center;
-  align-content: center;
+  height: 100%;
+  margin: 10px;
+  background-color: #24CC63;
 }
 
-.seis{
-  grid-column:1/3 ;
+.serv img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.cuatro {
-  grid-row: 2/4;
+.contenedor-grid{
+  display: grid;
+  grid-auto-rows: 150px;
+  grid-template-columns: repeat(auto-fill, minmax(25re, 1fr));
 }
+
 
 .tituloHoteles h2 {
   width: 100%;
@@ -209,31 +210,6 @@ footer {
   color: aliceblue;
 }
 
-.containerHoteles {
-  display: grid;
-  grid-auto-rows: 150px;
-  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
-  margin: 20px;
-  padding: 20px;
-}
-
-.containerHoteles img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.gridItem:nth-child(1) {
-  grid-row-start: span 4;
-}
-
-.gridItem:nth-child(3) {
-  grid-row-start: span 2;
-}
-
-.gridItem:nth-child(4) {
-  grid-row-start: span 3;
-}
 
 
 /* media queries pagina traslados */
@@ -248,7 +224,7 @@ footer {
   
 }
 
-/* fin estilos pagina traslados */
+/* FIN ESTILOS PAG TRASLADOS */
 
 /*---estilo contacto*/
 
