@@ -176,7 +176,7 @@ footer {
 
 .contenedor-galeria h2{
   text-align: center;
-  color:#d2d904;
+  color:#5d09e3;
   font-size:25px;
 }
 
@@ -192,6 +192,9 @@ footer {
   background-color: crimson;
   text-align: center;
   color: #fbfcfc;
+  border-radius: 10%;
+  border-color: #fbfcfc;
+  margin-top: 30px;
 }
 
 
@@ -232,7 +235,7 @@ footer {
 }
 
 .serv:nth-child(5){
-  grid-row-start: span 4;
+  grid-row-start: span 2;
   grid-column-start: span 1;
 }
 
@@ -266,6 +269,32 @@ footer {
 
   
 }
+@media (max-width: 425px) {
+  .btn-reserva{
+    width: 100px;
+    height: 30px;
+    background-color: crimson;
+    text-align: center;
+    color: #fbfcfc;
+    border-radius: 10%;
+    border-color: #fbfcfc;
+    
+  }
+
+  @media (max-width: 320px) {
+    .btn-reserva{
+     display: none;
+    }
+
+  
+  }
+
+  .tituloHoteles{
+    margin-top: 10px;
+  }
+
+  
+}
 
 /* FIN ESTILOS PAG TRASLADOS */
 
@@ -280,7 +309,7 @@ footer {
   text-decoration: underline;
 }
 
-/*--------estilo infoutil----*/
+/*----INICIO PAG INFO UTIL----*/
 
 .infoUtil ol {
   list-style-type: decimal;
@@ -299,8 +328,9 @@ footer {
 .infoUtil dt {
   text-decoration: underline;
 }
+/*----FIN PAG INFO UTIL----*/
 
-/*---- Fin Footer */
+
 
 /* media queries generales */
 
