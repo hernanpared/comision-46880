@@ -61,7 +61,9 @@ nav {
   border: 0.0625rem solid black;
   margin: 0.125rem;
 }
-
+nav {
+  padding: 10px 60px 10px 10px;
+}
 header {
   background-image: url("../assets/portada\ aeropuerto.png");
   overflow: hidden;
@@ -155,13 +157,12 @@ header h1 {
   background-color: #d2d904;
 }
 
-.btn-whatsapp{
+.btn-whatsapp {
   display: flex;
   align-items: center;
   justify-content: center;
-  
-}
 
+}
 
 
 /*------Inicio Footer-------------*/
@@ -177,18 +178,19 @@ footer {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
- }
+}
 
-.footer-flex{
-  width:300px;
-  height:100%;
-  
- }
+.footer-flex {
+  width: 300px;
+  height: 100%;
 
- .footer-flex p{
+}
+
+.footer-flex p {
   margin-top: 100px;
- }
+}
 
+/*------FIN Footer-------------*/
 
 
 /* INICIO ESTILO PAG TRASLADOS*/
@@ -196,10 +198,12 @@ footer {
 .header-traslados {
   background-image: url(../assets/portada-traslados.png);
 }
-.contenedor-galeria{
+
+.contenedor-galeria {
   width: 100%;
   height: auto;
 }
+
 .contenedor-galeria h2 {
   text-align: center;
   color: #5d09e3;
@@ -211,16 +215,16 @@ footer {
   height: 150px;
   background-color: #0f0f0e;
   text-align: center;
-  
+
 }
- 
-.section-ofertas button{
+
+.section-ofertas button {
   width: 200px;
   height: 50px;
   background-color: crimson;
   margin-top: 30px;
   color: #fbfcfc;
-  
+
 }
 
 .contenedor-grid {
@@ -286,10 +290,11 @@ footer {
   margin-top: 10px;
 }
 
-footer{
+footer {
   width: 100%;
   height: auto;
 }
+
 /* media queries pagina traslados */
 
 @media (max-width: 1024px) {}
@@ -297,10 +302,11 @@ footer{
 @media (max-width: 768px) {}
 
 @media (max-width: 425px) {
-  .section-ofertas h2{
+  .section-ofertas h2 {
     font-size: 20px;
   }
-  .section-ofertas button{
+
+  .section-ofertas button {
     width: 100px;
     height: 50px;
     background-color: crimson;
@@ -308,7 +314,7 @@ footer{
   }
 }
 
-@media (max-width: 375px){
+@media (max-width: 375px) {
   .contenedor-grid {
     width: 320px;
     height: auto;
@@ -320,7 +326,7 @@ footer{
     column-gap: 5px;
     row-gap: 5px;
   }
-  
+
 }
 
 @media (max-width: 320px) {
@@ -340,7 +346,7 @@ footer{
     row-gap: 5px;
   }
 
-  .serv{
+  .serv {
     width: 320px;
     height: auto;
     padding-right: 30px;
@@ -352,40 +358,46 @@ footer{
     grid-row-start: span 1;
     grid-column-start: span 1;
   }
-  
+
   .serv:nth-child(2) {
     grid-row-start: span 1;
     grid-column-start: span 1;
   }
-  
+
   .serv:nth-child(4) {
     grid-row-start: span 1;
     grid-column-start: span 1;
   }
-  
+
   .serv:nth-child(5) {
     grid-row-start: span 1;
     grid-column-start: span 1;
   }
 
-  footer{
+  footer {
     width: 320px;
     height: auto;
   }
 
-  .tituloHoteles{
+  .tituloHoteles {
     font-size: 18px;
   }
 }
 
-
-
-
-
-
-
-
 /* FIN ESTILOS PAG TRASLADOS */
+
+
+/* INICIO ESTILOS PAG TOURS */
+
+.titulo-excursiones{
+  background-color: #0f0f0e;
+  text-align: center;
+  color: #d2d904;
+  font-size: 20px;
+}
+
+
+/* FIN ESTILOS PAG TOURS */
 
 /*---estilo contacto*/
 
@@ -421,7 +433,6 @@ footer{
 /*----FIN PAG INFO UTIL----*/
 
 
-
 /* media queries generales */
 
 @media (max-width: 1024px) {
@@ -432,9 +443,7 @@ footer{
   }
 }
 
-nav {
-  padding: 10px 60px 10px 10px;
-}
+
 
 /* fin media queries generales */
 
@@ -574,3 +583,5 @@ nav {
     font-size: 30px;
   }
 }
+
+/* fin media queries inicio */
