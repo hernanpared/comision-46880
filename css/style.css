@@ -159,7 +159,10 @@ header h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
+
+
 
 /*------Inicio Footer-------------*/
 
@@ -208,19 +211,17 @@ footer {
   height: 150px;
   background-color: #0f0f0e;
   text-align: center;
+  
 }
-
-.btn-reserva {
-  width: 100px;
+ 
+.section-ofertas button{
+  width: 200px;
   height: 50px;
   background-color: crimson;
-  text-align: center;
-  color: #fbfcfc;
-  border-radius: 10%;
-  border-color: #fbfcfc;
   margin-top: 30px;
+  color: #fbfcfc;
+  
 }
-
 
 .contenedor-grid {
   width: 100%;
@@ -243,7 +244,6 @@ footer {
   row-gap: 5px;
 
 }
-
 
 .serv:nth-child(1) {
   grid-row-start: span 3;
@@ -297,15 +297,14 @@ footer{
 @media (max-width: 768px) {}
 
 @media (max-width: 425px) {
-  .btn-reserva {
+  .section-ofertas h2{
+    font-size: 20px;
+  }
+  .section-ofertas button{
     width: 100px;
-    height: 30px;
+    height: 50px;
     background-color: crimson;
-    text-align: center;
-    color: #fbfcfc;
-    border-radius: 10%;
-    border-color: #fbfcfc;
-
+    margin-bottom: 300px;
   }
 }
 
