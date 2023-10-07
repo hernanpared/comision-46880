@@ -12,19 +12,19 @@ main {
             height: 50px;
             margin: 30px;
 
-        .btn-whatsapp {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-              
-              }
+            .btn-whatsapp {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
             a {
                 text-decoration: none;
                 color: #fbfcfc;
             }
         }
 
-        h3{
+        h3 {
             font-size: 18px;
         }
     }
@@ -40,15 +40,171 @@ main {
             height: 100%;
             border-radius: 15%;
             box-shadow: 5px 8px 12px rgb(80, 77, 77);
-          }
-      }
+        }
+    }
 
-      .titulo-ofertas {
+    .titulo-ofertas {
         width: 100%;
         height: 100%;
         text-align: center;
         padding: 3.125rem;
         background-color: #d2d904;
-      }
+    }
 
+    .flex-container {
+        background-color: #fbfcfc;
+        width: 100%;
+        height: 100%;
+        padding: 50px;
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    
+
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 1024px) {
+    .item {
+        width: 280px;
+        height: 100%;
+        text-align: center;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        ul {
+            padding-top: 15px;
+        }
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        align-items: center;
+    }
+
+    .item {
+        width: 500px;
+        height: 100%;
+        padding: 10px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+}
+
+@media (max-width: 425px) {
+    header {
+        background-image: url("../assets/familia\ aeropuerto\ pequeña.png");
+        object-fit: cover;
+        height: 650px;
+
+        h1 {
+            top: 55%;
+            left: 25%;
+            bottom: 50%;
+            right: 25%;
+            padding: 10px;
+            font-size: 35px;
+        }
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 14px;
+
+        .navBar {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            li {
+                padding: 5px;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .item {
+        width: 425px;
+        height: 100%;
+        padding: 10px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+}
+
+@media (max-width: 375px) {
+    .item {
+        width: 375px;
+        height: 100%;
+        padding: 10px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .navBar li {
+        padding: 5px;
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .item {
+        width: 320px;
+        height: 100%;
+        padding: 10px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .navBar li {
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    header h1 {
+        top: 55%;
+        left: 25%;
+        bottom: 50%;
+        right: 25%;
+        padding: 10px;
+        font-size: 30px;
+    }
 }
