@@ -184,3 +184,9 @@ main .tituloHoteles {
     text-align: center;
     background-color: #5d09e3;
     color: aliceblue; }
+
+.titulo-excursiones {
+  background-color: #0f0f0e;
+  text-align: center;
+  color: #d2d904;
+  font-size: 20px; }
