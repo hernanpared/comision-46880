@@ -190,3 +190,43 @@ main .tituloHoteles {
   text-align: center;
   color: #d2d904;
   font-size: 20px; }
+
+main .caja {
+  width: 100%;
+  height: auto;
+  padding: 20px; }
+  main .caja p {
+    text-align: center;
+    color: #5d09e3;
+    font-size: 25px; }
+
+main form {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  padding: 30px; }
+  main form input {
+    width: 100%;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid white;
+    color: white; }
+  main form textarea {
+    width: 100%;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid white;
+    color: white; }
+  main form input::placeholder {
+    color: #fbfcfc; }
+  main form textarea::placeholder {
+    color: #fbfcfc; }
+  main form textarea::placeholder {
+    color: #fbfcfc; }
+  main form #inviar {
+    background-color: #d2d904;
+    font-size: 25px;
+    border: 2px solid white;
+    padding: 5px; }
