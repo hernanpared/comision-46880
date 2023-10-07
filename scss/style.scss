@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* paleta de colores
+  #0762D9
+  #038C73
+  #D2D904
+  #D9CB04
+  */
+/*fuentes
+  font-family: 'Anton', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  */
+
+body {
+  h1 {
+    font-size: 1.875rem;
+    font-family: "Anton", sans-serif;
+  }
+
+  h2 h3 h4 h5 h6 {
+    font-family: "Anton", sans-serif;
+  }
+}
+
+@import "../scss/header"

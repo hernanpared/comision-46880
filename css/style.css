@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* paleta de colores
+  #0762D9
+  #038C73
+  #D2D904
+  #D9CB04
+  */
+/*fuentes
+  font-family: 'Anton', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  */
+body h1 {
+  font-size: 1.875rem;
+  font-family: "Anton", sans-serif; }
+
+body h2 h3 h4 h5 h6 {
+  font-family: "Anton", sans-serif; }
+
+header {
+  background-image: url("../assets/portada aeropuerto.png");
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 37.5rem;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end; }
+  header h1 {
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    left: 25%;
+    color: aliceblue;
+    transform: translate(-50% -50%);
+    text-shadow: 0 0 8px rgba(18, 17, 17, 0.8); }
+  header nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding: 10px 60px 10px 10px; }
+    header nav .navBar {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      gap: 10px; }
+      header nav .navBar li a {
+        text-decoration: none;
+        background-color: #d2d904;
+        color: black;
+        padding: 0.3125rem;
+        border: 0.0625rem solid black;
+        margin: 0.125rem; }
+      header nav .navBar li a:hover {
+        color: white;
+        background-color: #0f0f0e; }
