@@ -64,46 +64,57 @@ header {
       header nav .navBar li a:hover {
         color: #F18A00; }
 
-main .tituloPrincipal {
+.tituloPrincipal {
   width: 100%;
-  height: 100%;
+  height: 200px;
   text-align: center;
   padding: 3.125rem;
-  background-color: #d2d904; }
-  main .tituloPrincipal button {
-    background-color: #24CC63;
-    width: 200px;
-    height: 50px;
-    margin: 30px; }
-    main .tituloPrincipal button .btn-whatsapp {
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-    main .tituloPrincipal button a {
-      text-decoration: none;
-      color: #fbfcfc; }
-  main .tituloPrincipal h3 {
-    font-size: 18px; }
+  background-color: black; }
+  .tituloPrincipal h2 {
+    font-size: 2.5rem;
+    color: #F18A00; }
+  .tituloPrincipal .btn-whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .tituloPrincipal .btn-whatsapp :hover {
+      background-color: white;
+      color: #F18A00; }
+    .tituloPrincipal .btn-whatsapp button {
+      background-color: transparent;
+      width: 200px;
+      height: 50px;
+      margin: 30px;
+      box-sizing: content-box;
+      border: solid white 4px;
+      padding: 2px; }
+      .tituloPrincipal .btn-whatsapp button p {
+        text-align: center;
+        color: white;
+        font-size: 1.25rem; }
+      .tituloPrincipal .btn-whatsapp button a {
+        text-decoration: none;
+        color: white; }
 
-main .item {
+.item {
   width: 350px;
   height: 100%;
   text-align: center;
   margin: 10px; }
-  main .item img {
+  .item img {
     width: 350px;
     height: 100%;
     border-radius: 15%;
     box-shadow: 5px 8px 12px #504d4d; }
 
-main .titulo-ofertas {
+.titulo-ofertas {
   width: 100%;
   height: 100%;
   text-align: center;
   padding: 3.125rem;
   background-color: #d2d904; }
 
-main .flex-container {
+.flex-container {
   background-color: #fbfcfc;
   width: 100%;
   height: 100%;
@@ -141,7 +152,15 @@ main .flex-container {
     padding: 10px; }
     .item img {
       width: 100%;
-      height: 100%; } }
+      height: 100%; }
+  .tituloPrincipal {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    border: #fbfcfc; }
+    .tituloPrincipal h2 {
+      color: #F18A00;
+      font-size: 30px; } }
 
 @media (max-width: 425px) {
   header {
