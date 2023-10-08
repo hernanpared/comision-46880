@@ -154,13 +154,14 @@ header {
       width: 100%;
       height: 100%; }
   .tituloPrincipal {
-    background-color: white;
     width: 100%;
-    height: 100px;
-    border: #fbfcfc; }
+    height: 300px;
+    text-align: center;
+    padding: 3.125rem;
+    background-color: black; }
     .tituloPrincipal h2 {
-      color: #F18A00;
-      font-size: 30px; } }
+      font-size: 2.5rem;
+      color: #F18A00; } }
 
 @media (max-width: 425px) {
   header {
@@ -193,7 +194,16 @@ header {
     padding: 10px; }
     .item img {
       width: 100%;
-      height: 100%; } }
+      height: 100%; }
+  .tituloPrincipal {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding: 3.125rem;
+    background-color: black; }
+    .tituloPrincipal h2 {
+      font-size: 1.875rem;
+      color: #F18A00; } }
 
 @media (max-width: 375px) {
   .item {
