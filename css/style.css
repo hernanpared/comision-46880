@@ -18,7 +18,7 @@ body h1 {
   font-size: 1.875rem;
   font-family: "Anton", sans-serif; }
 
-body h2 h3 h4 h5 h6 {
+body h2 h3 h4 h5 h6 p {
   font-family: "Anton", sans-serif; }
 
 header {
@@ -210,20 +210,39 @@ main .flex-container {
 
 footer {
   width: 100%;
-  height: 300px;
+  height: auto;
   background-color: black;
-  color: #d2d904;
-  text-align: center;
-  font-size: 18px;
   display: flex;
-  align-items: center;
+  flex-flow: row wrap;
   justify-content: space-around;
-  flex-wrap: wrap; }
-  footer .footer-flex {
-    width: 300px;
+  align-items: center; }
+  footer p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-top: 50%;
+    padding-bottom: 50%; }
+  footer .items {
+    width: 15.625rem;
     height: 100%; }
-  footer .footer-flex p {
-    margin-top: 100px; }
+
+/*MEDIA QUERIES*/
+@media (max-width: 425px) {
+  footer {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center; }
+    footer .items {
+      width: 425px;
+      height: 200px; }
+      footer .items p {
+        font-size: 20px;
+        color: white;
+        padding: 80px; } }
 
 .header-traslados {
   background-image: url(../assets/portada-traslados.png); }
