@@ -34,24 +34,51 @@ main {
 
     .section-ofertas {
         width: 100%;
-        height: 150px;
+        height: 200px;
         background-color: #0f0f0e;
         text-align: center;
 
         h2 {
             text-align: center;
-            color: #5d09e3;
-            font-size: 25px;
+            color: #fbfcfc;
+            font-size: 30px;
         }
+
 
     }
 
-    button {
-        width: 200px;
-        height: 50px;
-        background-color: crimson;
-        margin-top: 30px;
-        color: #fbfcfc;
+    .btn-general {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        :hover {
+            background-color: white;
+            color: #F18A00;
+        }
+
+        button {
+            background-color: transparent;
+            width: 200px;
+            height: 50px;
+            margin: 30px;
+            box-sizing: content-box;
+            border: solid white 4px;
+            padding: 2px;
+
+            p {
+                text-align: center;
+                color: white;
+                font-size: 1.25rem;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+
+            }
+
+        }
     }
 
     .serv img {
@@ -91,25 +118,22 @@ main {
 
     }
 
-    .tituloHoteles {
+    .titulo-hoteles {
         margin-top: 10px;
 
         h2 {
-            width: 100%;
-            height: 100%;
             text-align: center;
             background-color: #0f0f0e;
-            color: #d2d904;
-
+            color: #F18A00;
+            font-size: 35px;
 
         }
 
         p {
-            width: 100%;
-            height: 100%;
             text-align: center;
-            background-color: #5d09e3;
+            background-color:black;
             color: aliceblue;
+            font-size: 30px;
         }
     }
 
