@@ -1,6 +1,6 @@
 .tituloPrincipal {
     width: 100%;
-    height: 300px;
+    height: 200px;
     text-align: center;
     padding: 3.125rem;
     background-color: black;
@@ -48,20 +48,6 @@
 
 }
 
-.item {
-    width: 350px;
-    height: 100%;
-    text-align: center;
-    margin: 10px;
-
-    img {
-        width: 350px;
-        height: 100%;
-        border-radius: 15%;
-        box-shadow: 5px 8px 12px rgb(80, 77, 77);
-    }
-}
-
 .titulo-ofertas {
     width: 100%;
     height: 170px;
@@ -88,7 +74,27 @@
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:center;
+
+    .item {
+        width: 400px;
+        height: 100%;
+        text-align: center;
+        margin: 10px;
+    
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 15%;
+            box-shadow: 5px 8px 12px rgb(80, 77, 77);
+        }
+    }
+    h3{
+        font-size: 30px;
+    }
+    p{
+        font-size: 25px;
+    }
 }
 
 /*MEDIA QUERIES PAGINA INICIO*/

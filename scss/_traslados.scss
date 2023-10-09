@@ -1,8 +1,31 @@
+@import "./header";
+@import "./inicio";
+
 .header-traslados {
     background-image: url(../assets/portada-traslados.png);
 }
 
 main {
+
+    .titulos-galeria {
+        background-color: #0f0f0e;
+        width: 100%;
+        height: 150px;
+        padding: 10px;
+
+        h1 {
+            color: darkorange;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        h2 {
+            color: #fbfcfc;
+            font-size: 30px;
+
+        }
+    }
+
 
     .contenedor-galeria {
         width: 100%;
