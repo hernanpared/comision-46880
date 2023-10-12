@@ -3,6 +3,29 @@
 /*FONT FAMILY*/
 /*FONT SIZES*/
 /*FONT WEIGHTS*/
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation-iteration-count: infinite; }
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    opacity: 1; } }
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    opacity: 1; } }
+
 * {
   margin: 0;
   padding: 0;
