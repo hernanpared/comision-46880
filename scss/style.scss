@@ -2,16 +2,17 @@
 //VARIABLES
 @import "./variables/variables";
 //BASES
+@import "./base/reset";
 @import "./base/base";
-//PAGINAS
-@import"./traslados";
-@import"./tours";
-@import"./contacto";
-@import"./infoutil";
-@import "./scss/header";
-@import "./scss/inicio";
+//LAYOUT
+@import "./layout/inicio";
+@import"./layout/traslados";
+@import"./layout/tours";
+@import"./layout/infoutil";
+@import "./layout/contacto";
+@import "./layout/header";
 //FOOTER
-@import "./footer";
+@import "./layout/footer";
 
 
 
