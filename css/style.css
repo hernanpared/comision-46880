@@ -218,14 +218,14 @@ header {
     transform: translate(-50% -50%);
     text-shadow: 0 0 8px rgba(18, 17, 17, 0.8); }
   header nav {
-    width: 100%;
-    height: auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
     position: absolute;
     padding: 10px 60px 10px 10px;
-    background-color: black;
-    justify-content: space-between; }
+    background-color: #000509; }
     header nav a {
       text-decoration: none;
       font-weight: 700; }
@@ -536,14 +536,14 @@ header {
     transform: translate(-50% -50%);
     text-shadow: 0 0 8px rgba(18, 17, 17, 0.8); }
   header nav {
-    width: 100%;
-    height: auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
     position: absolute;
     padding: 10px 60px 10px 10px;
-    background-color: black;
-    justify-content: space-between; }
+    background-color: #000509; }
     header nav a {
       text-decoration: none;
       font-weight: 700; }
