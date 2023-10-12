@@ -1,6 +1,7 @@
 
-//VARIABLES
-@import "./variables/variables";
+//UTILITIES
+@import "./utilities/variables";
+@import "./utilities/mixins";
 //BASES
 @import "./base/reset";
 @import "./base/base";
