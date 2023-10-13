@@ -3,18 +3,18 @@
 @import "./utilities/variables";
 @import "./utilities/mixins";
 @import "./utilities/maps";
-@import "./utilities/funtions";
 @import "./utilities/animaciones";
 //BASES
 @import "./base/reset";
 @import "./base/base";
 //LAYOUT
+@import "./layout/header";
 @import "./layout/inicio";
 @import"./layout/traslados";
 @import"./layout/tours";
 @import"./layout/infoutil";
 @import "./layout/contacto";
-@import "./layout/header";
+
 //FOOTER
 @import "./layout/footer";
 

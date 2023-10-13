@@ -1,0 +1,12 @@
+@mixin flex($align, $justify) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+@mixin navbar($text, $justify, $gap) {
+    display: flex;
+    text-decoration: $text;
+    justify-content: $justify;
+    gap: $gap;
+}

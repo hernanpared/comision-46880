@@ -1,0 +1,36 @@
+.titulos {
+    background-color: #0f0f0e;
+    color: #d2d904;
+    text-align: center;
+
+    h1, h2{
+    font-size: map-get($font-size,xl);
+    }
+}
+
+h3 {
+    background-color: map-get($font-color,rojo);
+    color: #fbfcfc;
+    font-size: 18px;
+}
+
+.infoUtil ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+    text-align: left;
+    color: #038c73;
+
+    ul {
+        list-style-type: circle;
+        list-style-position: inside;
+        text-align: left;
+        color: #038c73;
+    }
+
+    dt {
+        text-decoration: underline;
+    }
+}
+
+
+

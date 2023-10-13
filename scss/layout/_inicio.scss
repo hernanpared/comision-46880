@@ -1,0 +1,263 @@
+.tituloPrincipal {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding: 3.125rem;
+    background-color: black;
+
+    h2 {
+        font-size: 2.5rem;
+        color: #F18A00;
+    }
+
+    .btn-general {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        :hover {
+            background-color: white;
+            color: #F18A00;
+        }
+
+
+        button {
+            background-color: transparent;
+            width: 200px;
+            height: 50px;
+            margin: 30px;
+            box-sizing: content-box;
+            border: solid white 4px;
+            padding: 2px;
+
+
+            p {
+                text-align: center;
+                color: white;
+                font-size: 1.25rem;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+
+            }
+
+        }
+    }
+
+}
+
+.titulo-ofertas {
+    width: 100%;
+    height: 170px;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+
+    h2 {
+        color: #F18A00;
+        font-size: 40px;
+    }
+
+    p {
+        color: #F18A00;
+        font-size: 1.875rem;
+    }
+}
+
+.flex-container {
+    background-color: #fbfcfc;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content:center;
+
+    .item {
+        width: 400px;
+        height: 100%;
+        text-align: center;
+        margin: 10px;
+    
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 15%;
+            box-shadow: 5px 8px 12px rgb(80, 77, 77);
+        }
+    }
+    h3{
+        font-size: 30px;
+    }
+    p{
+        font-size: 25px;
+    }
+}
+
+/*MEDIA QUERIES PAGINA INICIO*/
+
+@media (max-width: 1024px) {
+    .item {
+        width: 280px;
+        height: 100%;
+        text-align: center;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        align-items: center;
+    }
+
+    .item {
+        width: 600px;
+        height: 100%;
+        padding: 10px;
+
+        h3{
+            font-size: 35px;
+        }
+
+        p{
+            font-size: 25px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .tituloPrincipal {
+        width: 100%;
+        height: 250px;
+        text-align: center;
+        padding: 3.125rem;
+        background-color: black;
+
+        h2 {
+            font-size: 35px;
+            color: #F18A00;
+        }
+    }
+
+    .titulo-ofertas {
+        width: 100%;
+        height: 170px;
+        text-align: center;
+        padding: 10px;
+        background-color: black;
+
+        h2 {
+            color: #F18A00;
+            font-size: 35px;
+        }
+
+        p {
+            color: #F18A00;
+            font-size: 25px;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    header {
+        background-image: url("../assets/familia\ aeropuerto\ pequeña.png");
+        object-fit: cover;
+
+        h1 {
+            top: 55%;
+            left: 25%;
+            bottom: 50%;
+            right: 25%;
+            padding: 10px;
+            font-size: 35px;
+        }
+    }
+
+    .item {
+        width: 425px;
+        height: 100%;
+        padding: 10px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .tituloPrincipal {
+        width: 100%;
+        height: 300px;
+        text-align: center;
+        padding: 3.125rem;
+        background-color: black;
+
+        h2 {
+            font-size: 1.875rem;
+            color: #F18A00;
+        }
+    }
+
+    .titulo-ofertas {
+        width: 100%;
+        height: 170px;
+        text-align: center;
+        padding: 10px;
+        background-color: black;
+
+        h2 {
+            color: #F18A00;
+            font-size: 30px;
+        }
+
+        p {
+            color: #F18A00;
+            font-size: 25px;
+        }
+    }
+
+}
+
+
+
+@media (max-width: 375px) {
+    .item {
+        width: 375px;
+        height: 100%;
+        padding: 10px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+}
+
+@media (max-width: 320px) {
+    .item {
+        width: 320px;
+        height: 100%;
+        padding: 10px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+}

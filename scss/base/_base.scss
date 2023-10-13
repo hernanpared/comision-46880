@@ -1,0 +1,45 @@
+html {
+    color-scheme: light;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+body {
+    position: relative;
+    min-height: 100vh;
+
+    text-rendering: optimizeLegibility;
+
+
+    background-color: $color-slate-100;
+
+    p {
+        font-family: $p-font;
+        font-size: $font-xs;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: $title-font;
+    }
+
+    h1 {
+        font-size: $font-xl;
+        font-weight: $font-extrabold;
+    }
+
+    h2 {
+        font-size: $font-md;
+        font-weight: $font-semibold;
+    }
+}

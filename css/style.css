@@ -31,12 +31,29 @@
   padding: 0;
   box-sizing: border-box; }
 
+html {
+  color-scheme: light;
+  scroll-behavior: smooth; }
+
+html,
 body {
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+body {
+  position: relative;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
   background-color: #E4E4E4; }
   body p {
     font-family: "Roboto Flex", sans-serif;
     font-size: 1rem; }
-  body h1, body h2, body h3, body h4, body h5, body h6 {
+  body h1,
+  body h2,
+  body h3,
+  body h4,
+  body h5,
+  body h6 {
     font-family: "Roboto Flex", sans-serif; }
   body h1 {
     font-size: 1.875rem;
@@ -44,6 +61,84 @@ body {
   body h2 {
     font-size: 1.25rem;
     font-weight: 400; }
+
+header {
+  background-image: url("../assets/portada aeropuerto.png");
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 37.5rem;
+  background-position: center;
+  display: flex; }
+  header h1 {
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    left: 25%;
+    color: aliceblue;
+    transform: translate(-50% -50%);
+    text-shadow: 0 0 8px rgba(18, 17, 17, 0.8); }
+  header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    padding: 10px 60px 10px 10px;
+    background-color: #000509; }
+    header nav a {
+      text-decoration: none;
+      font-weight: 700; }
+    header nav .logo {
+      display: flex;
+      align-items: center; }
+      header nav .logo .nombre-empresa {
+        color: white; }
+      header nav .logo img {
+        height: 50px;
+        margin-right: 10px; }
+    header nav .navBar {
+      display: flex;
+      text-decoration: none;
+      justify-content: center;
+      gap: 10px; }
+      header nav .navBar li a {
+        text-decoration: none;
+        color: white;
+        padding: 0.3125rem;
+        margin: 0.125rem;
+        font-size: 20px; }
+      header nav .navBar li a:hover {
+        color: #F18A00; }
+
+/*MEDIA QUERIES HEADER*/
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding: 10px; }
+  .menu-principal {
+    margin-top: 20px; } }
+
+@media (max-width: 425px) {
+  header .logo {
+    margin-right: 45px; }
+  header .navBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px; }
+  header h1 {
+    font-size: 20px;
+    margin-right: 50px;
+    text-align: center; } }
 
 .tituloPrincipal {
   width: 100%;
@@ -221,86 +316,18 @@ body {
       width: 100%;
       height: 100%; } }
 
-header {
-  background-image: url("../assets/portada aeropuerto.png");
-  overflow: hidden;
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 37.5rem;
-  background-position: center;
-  display: flex; }
-  header h1 {
-    font-size: 40px;
-    position: absolute;
-    top: 50%;
-    right: 25%;
-    left: 25%;
-    color: aliceblue;
-    transform: translate(-50% -50%);
-    text-shadow: 0 0 8px rgba(18, 17, 17, 0.8); }
-  header nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: auto;
-    position: absolute;
-    padding: 10px 60px 10px 10px;
-    background-color: #000509; }
-    header nav a {
-      text-decoration: none;
-      font-weight: 700; }
-    header nav .logo {
-      display: flex;
-      align-items: center; }
-      header nav .logo .nombre-empresa {
-        color: white; }
-      header nav .logo img {
-        height: 50px;
-        margin-right: 10px; }
-    header nav .navBar {
-      display: flex;
-      text-decoration: none;
-      justify-content: center;
-      gap: 10px; }
-      header nav .navBar li a {
-        text-decoration: none;
-        color: white;
-        padding: 0.3125rem;
-        margin: 0.125rem;
-        font-size: 20px; }
-      header nav .navBar li a:hover {
-        color: #F18A00; }
-
-/*MEDIA QUERIES HEADER*/
-@media (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    padding: 10px; }
-  .menu-principal {
-    margin-top: 20px; } }
-
-@media (max-width: 425px) {
-  header .logo {
-    margin-right: 45px; }
-  header .navBar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 50px; }
-  header h1 {
-    font-size: 20px;
-    margin-right: 50px;
-    text-align: center; } }
-
 .header-traslados {
   background-image: url(../assets/portada-traslados.png); }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  padding: 10px 60px 10px 10px;
+  background-color: #000509; }
 
 main .titulos-galeria {
   background-color: #0f0f0e;
@@ -539,84 +566,6 @@ main form {
     font-size: 25px;
     border: 2px solid white;
     padding: 5px; }
-
-header {
-  background-image: url("../assets/portada aeropuerto.png");
-  overflow: hidden;
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 37.5rem;
-  background-position: center;
-  display: flex; }
-  header h1 {
-    font-size: 40px;
-    position: absolute;
-    top: 50%;
-    right: 25%;
-    left: 25%;
-    color: aliceblue;
-    transform: translate(-50% -50%);
-    text-shadow: 0 0 8px rgba(18, 17, 17, 0.8); }
-  header nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: auto;
-    position: absolute;
-    padding: 10px 60px 10px 10px;
-    background-color: #000509; }
-    header nav a {
-      text-decoration: none;
-      font-weight: 700; }
-    header nav .logo {
-      display: flex;
-      align-items: center; }
-      header nav .logo .nombre-empresa {
-        color: white; }
-      header nav .logo img {
-        height: 50px;
-        margin-right: 10px; }
-    header nav .navBar {
-      display: flex;
-      text-decoration: none;
-      justify-content: center;
-      gap: 10px; }
-      header nav .navBar li a {
-        text-decoration: none;
-        color: white;
-        padding: 0.3125rem;
-        margin: 0.125rem;
-        font-size: 20px; }
-      header nav .navBar li a:hover {
-        color: #F18A00; }
-
-/*MEDIA QUERIES HEADER*/
-@media (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    padding: 10px; }
-  .menu-principal {
-    margin-top: 20px; } }
-
-@media (max-width: 425px) {
-  header .logo {
-    margin-right: 45px; }
-  header .navBar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 50px; }
-  header h1 {
-    font-size: 20px;
-    margin-right: 50px;
-    text-align: center; } }
 
 footer {
   width: 100%;
