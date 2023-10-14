@@ -26,8 +26,8 @@
   100% {
     opacity: 1; } }
 
-/*MEDIA QUERIES PAGINA INICIO*/
 @media (max-width: 1024px) {
+  /*MEDIA QUERIES PAGINA INICIO*/
   .item {
     width: 280px;
     height: 100%;
@@ -226,6 +226,14 @@ body {
   body h2 {
     font-size: 1.25rem;
     font-weight: 400; }
+  body header .navBar {
+    align-items: center;
+    text-decoration: none;
+    list-style: none; }
+  body header a {
+    font-family: "Gabarito", sans-serif; }
+    body header a h2 {
+      font-family: "Gabarito", sans-serif; }
 
 header {
   background-image: url("../assets/portada aeropuerto.png");

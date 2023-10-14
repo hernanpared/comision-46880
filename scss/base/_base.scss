@@ -42,4 +42,20 @@ body {
         font-size: $font-md;
         font-weight: $font-semibold;
     }
+
+    header {
+        .navBar {
+            align-items: center;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        a {
+            font-family: $title-font;
+
+            h2 {
+                font-family: $title-font;
+            }
+        }
+    }
 }
