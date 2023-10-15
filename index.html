@@ -19,6 +19,9 @@
 
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./assets/taxi-frontal.ico">
+<!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!--bootstrap-->
 
 
     <!--font google-->
@@ -36,7 +39,7 @@
 <body>
     <!-- Inicio del Menu -->
     <header>
-        <nav>
+        <nav class="p-3 mb-2 bg-primary text-white">
             <a href="#" class="logo">
                 <img src="./assets/Logotipo  (1).png" alt="logotipo agencia">
                 <h2 class="nombre-empresa">Iguazu Tours</h2>
@@ -59,11 +62,11 @@
     <!-- Fin del Menu -->
 
     <main>
-
+        
         <section class="tituloPrincipal">
-            <div class="sub-titulo">
+            <div class="p-3 mb-2 bg-secondary text-white">
             <h2>CONOCE NUETROS PRINCIPALES SERVICIOS</h2>
-            </div>
+            
 
             <div class="btn-general">
                 <button>
@@ -72,35 +75,36 @@
             </div>
 
         </section>
+        
 
         <!-- Inicio contenedor flex  -->
         <section class="flex-container">
 
             <article class="item uno">
                 <img src="./assets/aeropuerto de iguazu.webp" alt="familiar en el aeropuerto">
-                <h3>TRANSFER AEROPUERTOS</h3>
-                <p>Servicios de traslados desde y hacia el Aeropuerto Internacional Iguazú. Traslados privados, ahorre
+                <h3 class="class= p-3 mb-2 bg-info text-dark">TRANSFER AEROPUERTOS</h3>
+                <p class="p-3 mb-2 bg-body-secondary">Servicios de traslados desde y hacia el Aeropuerto Internacional Iguazú. Traslados privados, ahorre
                     tiempo en los cruces de frontera.</p>
             </article>
 
             <article class="item dos">
                 <img src="./assets/excursiones.png" alt="excursiones en misiones">
-                <h3>EXCURSIONES</h3>
-                <p>Ofrecemos servicios de traslados a todas las excursiones y atractivos turísticos de Puerto Iguazú y
+                <h3 class="class= p-3 mb-2 bg-info text-dark">EXCURSIONES</h3>
+                <p class="p-3 mb-2 bg-body-secondary">Ofrecemos servicios de traslados a todas las excursiones y atractivos turísticos de Puerto Iguazú y
                     Foz do Iguaçu Brasil.</p>
             </article>
 
             <article class="item tres">
                 <img src="./assets/duty free.png" alt="duty free shop iguazú">
-                <h3>PASEOS DE COMPRAS</h3>
-                <p>Paseos de compras al Duty Free Shop Puerto Iguazú y a Shopping de Ciudad del Este Paraguay.</p>
+                <h3 class="class= p-3 mb-2 bg-info text-dark">PASEOS DE COMPRAS</h3>
+                <p class="p-3 mb-2 bg-body-secondary">Paseos de compras al Duty Free Shop Puerto Iguazú y a Shopping de Ciudad del Este Paraguay.</p>
             </article>
         </section>
 
         <!-- Fin contenedor flex -->
 
         <!-- ofertas -->
-        <section class="titulo-ofertas">
+        <section class="p-3 mb-2 bg-secondary text-white">
             <article>
                 <h2>20 % OFF</h2>
                 <p>Contratando mas de 2 excursiones</p>
@@ -111,23 +115,23 @@
         <section class="flex-container">
             <article class="item cuatro">
                 <img src="./assets/minas de wanda.png" alt="minas de wanda">
-                <h3>MINAS DE WANDA</h3>
-                <p>Las Minas de Wanda se encuentran ubicadas en la localidad de Colonia Wanda a unos 40 km de Puerto
+                <h3 class="class= p-3 mb-2 bg-info text-dark">MINAS DE WANDA</h3>
+                <p class="p-3 mb-2 bg-body-secondary">Las Minas de Wanda se encuentran ubicadas en la localidad de Colonia Wanda a unos 40 km de Puerto
                     Iguazú, 40 min de viaje. Es uno de los destinos mas elegidos de Misiones, una oportunidad única de
                     conocer el apasionante mundo de las piedras preciosas. </p>
             </article>
             <article class="item cinco">
                 <img src="./assets/ruinas de san ignacio.png" alt="ruinas de san ignacio">
-                <h3>RUINAS DE SAN IGNACIO</h3>
-                <p>Las Ruinas de San Ignacio, se encuentran ubicadas en la localidad de San Ignacio Misiones, a unos 240
+                <h3 class="class= p-3 mb-2 bg-info text-dark">RUINAS DE SAN IGNACIO</h3>
+                <p class="p-3 mb-2 bg-body-secondary">Las Ruinas de San Ignacio, se encuentran ubicadas en la localidad de San Ignacio Misiones, a unos 240
                     km de Puerto Iguazú. Son una de las reliquias históricas mejor conservadas de las reducciones
                     jesuíticas de la región. No se pierda la oportunidad de aprender mas sobre la historia de la región.
                 </p>
             </article>
             <article class="item seis">
                 <img src="./assets/cruz de santa ana.png">
-                <h3>CRUZ DE SANTA ANA</h3>
-                <p>La Cruz de Santa Ana se encuentra ubicada en la localidad de Santa Ana Misiones, en un lugar
+                <h3 class="class= p-3 mb-2 bg-info text-dark">CRUZ DE SANTA ANA</h3>
+                <p class="p-3 mb-2 bg-body-secondary">La Cruz de Santa Ana se encuentra ubicada en la localidad de Santa Ana Misiones, en un lugar
                     privilegiado, rodeado de vegetación y fauna autóctona. Es una experiencia inolvidable para estar mas
                     cerca de la naturaleza y aprender sobre la cultura del lugar. </p>
             </article>
@@ -150,7 +154,10 @@
     </footer>
 
     <!-- Fin Pie de Pagina  -->
-
+    <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <!--bootstrap-->
 </body>
 
 </html>

@@ -241,18 +241,14 @@ header {
   width: 100%;
   height: 200px;
   text-align: center;
-  padding: 3.125rem;
-  background-color: black; }
-  .tituloPrincipal h2 {
-    font-size: 2.5rem;
-    color: #F18A00; }
+  padding: 3.125rem; }
   .tituloPrincipal .btn-general {
     display: flex;
     align-items: center;
     justify-content: center; }
     .tituloPrincipal .btn-general :hover {
-      background-color: white;
-      color: #F18A00; }
+      background-color: transparent;
+      color: #030303; }
     .tituloPrincipal .btn-general button {
       background-color: transparent;
       width: 200px;

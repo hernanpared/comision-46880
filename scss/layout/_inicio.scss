@@ -3,12 +3,6 @@
     height: 200px;
     text-align: center;
     padding: 3.125rem;
-    background-color: black;
-
-    h2 {
-        font-size: 2.5rem;
-        color: #F18A00;
-    }
 
     .btn-general {
         display: flex;
@@ -16,8 +10,8 @@
         justify-content: center;
 
         :hover {
-            background-color: white;
-            color: #F18A00;
+            background-color: transparent;
+            color: #030303;
         }
 
 
