@@ -4,61 +4,17 @@
     text-align: center;
     padding: 3.125rem;
 
-    .btn-general {
-        display: flex;
-        align-items: center;
-        justify-content: center;
 
-        :hover {
-            background-color: transparent;
-            color: #030303;
-        }
-
-
-        button {
-            background-color: transparent;
-            width: 200px;
-            height: 50px;
-            margin: 30px;
-            box-sizing: content-box;
-            border: solid white 4px;
-            padding: 2px;
-
-
-            p {
-                text-align: center;
-                color: white;
-                font-size: 1.25rem;
-            }
-
-            a {
-                text-decoration: none;
-                color: white;
-
-            }
-
+    .btn{
+        a {
+            color: white;
+            text-decoration: none;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25;
         }
     }
-
 }
 
-.titulo-ofertas {
-    width: 100%;
-    height: 170px;
-    text-align: center;
-    padding: 10px;
-    background-color: black;
-
-    h2 {
-        color: #F18A00;
-        font-size: 40px;
-    }
-
-    p {
-        color: #F18A00;
-        font-size: 1.875rem;
-    }
-}
 
 .flex-container {
     background-color: #fbfcfc;
@@ -68,14 +24,14 @@
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
 
     .item {
         width: 400px;
         height: 100%;
         text-align: center;
         margin: 10px;
-    
+
         img {
             width: 100%;
             height: 100%;
@@ -83,10 +39,18 @@
             box-shadow: 5px 8px 12px rgb(80, 77, 77);
         }
     }
-    h3{
+
+    h3 {
         font-size: 30px;
     }
-    p{
+
+    p {
         font-size: 25px;
+        font-family:'Times New Roman', Times, serif;
     }
+}
+
+.ofertas{
+    text-align: center;
+    
 }

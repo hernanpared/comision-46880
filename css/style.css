@@ -241,41 +241,11 @@ header {
   height: 200px;
   text-align: center;
   padding: 3.125rem; }
-  .tituloPrincipal .btn-general {
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    .tituloPrincipal .btn-general :hover {
-      background-color: transparent;
-      color: #030303; }
-    .tituloPrincipal .btn-general button {
-      background-color: transparent;
-      width: 200px;
-      height: 50px;
-      margin: 30px;
-      box-sizing: content-box;
-      border: solid white 4px;
-      padding: 2px; }
-      .tituloPrincipal .btn-general button p {
-        text-align: center;
-        color: white;
-        font-size: 1.25rem; }
-      .tituloPrincipal .btn-general button a {
-        text-decoration: none;
-        color: white; }
-
-.titulo-ofertas {
-  width: 100%;
-  height: 170px;
-  text-align: center;
-  padding: 10px;
-  background-color: black; }
-  .titulo-ofertas h2 {
-    color: #F18A00;
-    font-size: 40px; }
-  .titulo-ofertas p {
-    color: #F18A00;
-    font-size: 1.875rem; }
+  .tituloPrincipal .btn a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25; }
 
 .flex-container {
   background-color: #fbfcfc;
@@ -299,7 +269,11 @@ header {
   .flex-container h3 {
     font-size: 30px; }
   .flex-container p {
-    font-size: 25px; }
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif; }
+
+.ofertas {
+  text-align: center; }
 
 .header-traslados {
   background-image: url(../assets/portada-traslados.png); }
@@ -314,18 +288,8 @@ nav {
   padding: 10px 60px 10px 10px;
   background-color: #000509; }
 
-main .titulos-galeria {
-  background-color: #0f0f0e;
-  width: 100%;
-  height: 150px;
-  padding: 10px; }
-  main .titulos-galeria h1 {
-    color: darkorange;
-    text-align: center;
-    font-size: 40px; }
-  main .titulos-galeria h2 {
-    color: #fbfcfc;
-    font-size: 30px; }
+main .t-galeria {
+  text-align: center; }
 
 main .contenedor-galeria {
   width: 100%;
@@ -391,20 +355,8 @@ main .contenedor-grid {
     grid-row-start: span 2;
     grid-column-start: span 1; }
 
-main .titulo-hoteles {
-  width: 100%;
-  height: 200px;
-  margin-top: 100px; }
-  main .titulo-hoteles h2 {
-    text-align: center;
-    background-color: #0f0f0e;
-    color: #F18A00;
-    font-size: 35px; }
-  main .titulo-hoteles p {
-    text-align: center;
-    background-color: black;
-    color: aliceblue;
-    font-size: 30px; }
+main .t-secundario {
+  text-align: center; }
 
 .titulo-excursiones {
   background-color: #0f0f0e;

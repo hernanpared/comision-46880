@@ -14,24 +14,12 @@ nav{
 
 main {
 
-    .titulos-galeria {
-        background-color: #0f0f0e;
-        width: 100%;
-        height: 150px;
-        padding: 10px;
+    .t-galeria{
+        text-align: center;
 
-        h1 {
-            color: darkorange;
-            text-align: center;
-            font-size: 40px;
-        }
-
-        h2 {
-            color: #fbfcfc;
-            font-size: 30px;
-
-        }
     }
+
+    
 
 
     .contenedor-galeria {
@@ -126,25 +114,8 @@ main {
 
     }
 
-    .titulo-hoteles {
-        width: 100%;
-        height: 200px;
-        margin-top: 100px;
-
-        h2 {
-            text-align: center;
-            background-color: #0f0f0e;
-            color: #F18A00;
-            font-size: 35px;
-
-        }
-
-        p {
-            text-align: center;
-            background-color: black;
-            color: aliceblue;
-            font-size: 30px;
-        }
+    .t-secundario{
+        text-align: center;
     }
 
 }
