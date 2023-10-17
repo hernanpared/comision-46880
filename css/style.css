@@ -2,29 +2,6 @@
 /*FONT FAMILY*/
 /*FONT SIZES*/
 /*FONT WEIGHTS*/
-.tracking-in-expand {
-  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  animation-iteration-count: infinite; }
-
-@-webkit-keyframes tracking-in-expand {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0; }
-  40% {
-    opacity: 0.6; }
-  100% {
-    opacity: 1; } }
-
-@keyframes tracking-in-expand {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0; }
-  40% {
-    opacity: 0.6; }
-  100% {
-    opacity: 1; } }
-
 @media (max-width: 1024px) {
   /*MEDIA QUERIES PAGINA INICIO*/
   .item {
@@ -37,20 +14,6 @@
 
 @media (max-width: 768px) {
   /*MEDIA QUERIES HEADER*/
-  nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    nav .navBar {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-decoration: none; }
-    nav .menu-principal {
-      font-size: 1.25rem;
-      margin-top: 10px; }
   /*MEDIA QUERIES PAGINA INICIO*/
   main .tituloPrincipal {
     height: 300px; }
@@ -183,6 +146,9 @@ body {
     body header a h2 {
       font-family: "Gabarito", sans-serif; }
 
+.navbar-text {
+  justify-content: center; }
+
 .tituloPrincipal {
   width: 100%;
   height: 200px;
@@ -221,19 +187,6 @@ body {
 
 .ofertas {
   text-align: center; }
-
-.header-traslados {
-  background-image: url(../assets/portada-traslados.png); }
-
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: auto;
-  position: absolute;
-  padding: 10px 60px 10px 10px;
-  background-color: #000509; }
 
 main .t-galeria {
   text-align: center; }
@@ -312,8 +265,8 @@ main .t-secundario {
   font-size: 20px; }
 
 .titulos {
-  background-color: #0f0f0e;
-  color: #d2d904;
+  background-color: #198754;
+  color: white;
   text-align: center; }
   .titulos h1, .titulos h2 {
     font-size: 40px; }

@@ -1,17 +1,5 @@
 
 
-.header-traslados {
-    background-image: url(../assets/portada-traslados.png);
-}
-nav{
-@include flex(center, space-between);
-        width: 100%;
-        height: auto;
-        position: absolute;
-        padding: 10px 60px 10px 10px;
-        background-color:$color-slate-300;
-}
-
 main {
 
     .t-galeria{

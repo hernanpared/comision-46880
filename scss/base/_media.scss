@@ -17,27 +17,7 @@
 @media (max-width: 768px) {
 
     /*MEDIA QUERIES HEADER*/
-    nav {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
-        .navBar {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-decoration: none;
-
-
-        }
-
-        .menu-principal {
-            font-size: $font-md;
-            margin-top: 10px;
-        }
-    }
 
     /*MEDIA QUERIES PAGINA INICIO*/
 
@@ -95,12 +75,6 @@
     }
 
 }
-
-
-
-
-
-
 
 
 
