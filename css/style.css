@@ -328,11 +328,32 @@ main .contenedor-grid {
 main .t-secundario {
   text-align: center; }
 
-.titulo-excursiones {
-  background-color: #0f0f0e;
-  text-align: center;
-  color: #d2d904;
-  font-size: 20px; }
+main h1 {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  text-align: center; }
+
+main .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  main .flex-container h3 {
+    background-color: #837d7d;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center; }
+
+main .titulo-excursiones {
+  background-color: #0dcaf077; }
+  main .titulo-excursiones h2 {
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 200; }
 
 .titulos {
   background-color: #198754;
