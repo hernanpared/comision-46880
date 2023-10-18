@@ -10,3 +10,12 @@
     justify-content: $justify;
     gap: $gap;
 }
+
+
+@mixin display-flex ($justify, $align, $width, $height){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}

@@ -1,4 +1,3 @@
-
 /*carrucel*/
 .d-item {
     height: 500px;
@@ -12,9 +11,9 @@
 
 /*carrucel*/
 
-button{
-    p{
-        a{
+button {
+    p {
+        a {
             text-decoration: none;
         }
     }
@@ -22,15 +21,9 @@ button{
 
 
 .flex-container {
-    background-color: #fbfcfc;
-    width: 100%;
-    height: 100%;
-    padding: 50px;
-    display: flex;
-    align-items: baseline;
-    flex-wrap: wrap;
-    justify-content: center;
 
+    @include display-flex (center, center, 100%, 100%);
+    
     .item {
         width: 400px;
         height: 100%;
@@ -53,9 +46,30 @@ button{
         font-size: 25px;
         font-family: 'Times New Roman', Times, serif;
     }
+
+
+    .cards{
+        width: 18rem;
+        margin: 20px;
+
+    }
+
+    .card-color{
+        color: blue;
+        font-weight: 900;
+    }
+
 }
 
-.ofertas {
+
+.contenedor-ofertas{
+    @include display-flex(center, center, 100%, 100%);
+    background-color: #0DCAF0;
+    color: black;
+    h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
     text-align: center;
+    }
 
 }
