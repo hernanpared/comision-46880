@@ -421,18 +421,11 @@ main form {
 
 footer {
   width: 100%;
-  height: auto;
-  background-color: black;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center; }
-  footer p {
-    font-size: 18px;
+  height: 250px;
+  background-color: #797b7c; }
+  footer p a {
+    text-decoration: none; }
+  footer p i {
     color: white;
-    text-align: center;
-    padding-top: 50%;
-    padding-bottom: 50%; }
-  footer .items {
-    width: 15.625rem;
-    height: 100%; }
+    font-size: 22px;
+    text-align: center; }
