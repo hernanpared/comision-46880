@@ -42,7 +42,7 @@
             }
 
             p {
-            
+
                 font-weight: 900;
             }
         }
@@ -61,14 +61,14 @@
 
     }
 
-     /*MEDIA QUERIES PAGINA TRASLADOS*/
+    /*MEDIA QUERIES PAGINA TRASLADOS*/
 
-     .contenedor-galeria {
+    .contenedor-galeria {
         .titulos-galeria {
             height: 100px;
 
             h2 {
-                color:darkgoldenrod;
+                color: darkgoldenrod;
                 text-align: center;
             }
         }
@@ -76,10 +76,22 @@
 
 }
 
-
-
-
-/*MEDIA QUERIES PAGINA TRASLADOS*/
+@media (max-width: 425px) {
+body{
+    footer {
+       display: flex;
+       flex-direction: column;
+        p {
+            a{
+                font-size: 10px;
+            }
+            i{
+                font-size: 16px;
+            }
+        }
+    }
+}
+}
 
 
 @media (max-width: 375px) {
@@ -144,27 +156,5 @@
 
     .tituloHoteles {
         font-size: 18px;
-    }
-}
-
-
-/*MEDIA QUERIES FOOTER*/
-@media (max-width: 425px) {
-
-    footer {
-        width: 100%;
-        height: 600px;
-        background-color: black;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
-
-        .items {
-            width: 425px;
-            height: 200px;
-
-        }
-
     }
 }

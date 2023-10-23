@@ -4,18 +4,12 @@
     justify-content: $justify;
 }
 
-@mixin navbar($text, $justify, $gap) {
+
+@mixin display-flex ($justify, $align, $flex, $self){
     display: flex;
-    text-decoration: $text;
     justify-content: $justify;
-    gap: $gap;
-}
-
-
-@mixin display-flex ($justify, $align, $width, $height){
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+    align-items: $align;
+    flex-wrap:$flex ;
+    align-self: $self;
+    
 }
