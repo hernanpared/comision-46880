@@ -377,6 +377,10 @@ main .info-col dt {
 main .info-col dd {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
+main .info-col .format-img {
+  width: 100%;
+  height: auto; }
+
 .container-footer {
   margin-top: 200px; }
 
