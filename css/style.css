@@ -271,6 +271,10 @@ main .section-ofertas {
     color: #fbfcfc;
     font-size: 30px; }
 
+main .text-color {
+  color: black;
+  font-weight: 800; }
+
 main .btn-reserva {
   display: flex;
   align-items: center;

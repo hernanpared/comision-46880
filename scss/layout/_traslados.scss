@@ -1,18 +1,15 @@
-
-
 main {
 
-    .t-galeria{
+    .t-galeria {
         text-align: center;
 
     }
 
-    
-
-
     .contenedor-galeria {
         width: 100%;
         height: auto;
+
+
     }
 
     .section-ofertas {
@@ -28,6 +25,11 @@ main {
         }
 
 
+    }
+
+    .text-color {
+        color: black;
+        font-weight: 800;
     }
 
     .btn-reserva {
@@ -61,9 +63,10 @@ main {
                 color: white;
 
             }
-
         }
+
     }
+
 
     .serv img {
         width: 100%;
@@ -102,9 +105,8 @@ main {
 
     }
 
-    .t-secundario{
+    .t-secundario {
         text-align: center;
     }
 
 }
-
