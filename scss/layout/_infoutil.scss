@@ -1,38 +1,39 @@
-
-
-main{
-    .titulos{
-        h1{
+main {
+    .titulos {
+        h1 {
             background-color: #0D6EFD;
 
         }
-        h2{
+
+        h2 {
             background-color: #6C757D;
             color: white;
             text-align: center;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-size: 22px;
         }
     }
 
-    .info-col{
-        h3{
+    .info-col {
+        h3 {
             text-align: center;
             background-color: #F8F8F8;
             border: 1px solid #6C757D;
         }
-        li{
-           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+
+        li {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
 
-        dt{
+        dt {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
-        dd{
+
+        dd {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
-        .format-img{
+        .format-img {
             width: 100%;
             height: auto;
         }
@@ -41,6 +42,6 @@ main{
 }
 
 
-.container-footer{
-    margin-top:200px;
+.container-footer {
+    margin-top: 200px;
 }
